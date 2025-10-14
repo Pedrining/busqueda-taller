@@ -1,0 +1,13 @@
+node_modules
+.serverless
+
+# TypeScript compiled files
+*.js
+*.js.map
+*.d.ts
+
+# Keep configuration JS files
+!jest.config.js
+
+# Keep undefined temp folder if needed
+undefined/

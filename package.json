@@ -1,0 +1,28 @@
+{
+  "name": "busquedataller",
+  "version": "1.0.0",
+  "description": "Proyecto para busquedas de talleres en rimac",
+  "main": "handler.js",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "serverless-offline": "^14.3.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "npm run build && serverless offline start",
+    "dev": "serverless offline start"
+  },
+  "keywords": [
+    "serverless",
+    "aws"
+  ],
+  "author": "Pedro Infante Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.7.2",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  }
+}
