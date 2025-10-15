@@ -10,7 +10,7 @@ Serverless Framework con TypeScript para extracción inteligente de deducibles d
 
 <img width="737" height="489" alt="test-total" src="https://github.com/user-attachments/assets/fa72e9d8-138a-4c77-9065-a008a60631b4" />
 
-Como se puede visualizar fueron testeadas **11 deducibles** con un resultado exitoso. Se adjuntan las pruebas realizadas al endpoint desplegado en AWS:
+Como se puede visualizar fueron testeadas **10 deducibles** con un resultado exitoso. Se adjuntan las pruebas realizadas al endpoint desplegado en AWS:
 
 ---
 
@@ -72,7 +72,7 @@ Para los **4 tipos de deducibles restantes** (D314, D1256, D4514, D5936), no se 
 
 ```
 ├── dao/              # Lógica de acceso a datos y extracción
-├── test/             # Tests unitarios (11 casos)
+├── test/             # Tests unitarios (10 casos)
 ├── util/             # Utilidades y constantes
 ├── handler.ts        # Handler principal de Lambda
 ├── serverless.yml    # Configuración de Serverless Framework
@@ -114,7 +114,7 @@ npm run dev
 
 ## ✅ Resultados de tests
 
-**11/11 tests passing** ✨
+**10/10 tests passing** ✨
 
 - ✅ D10 - Lógica genérica
 - ✅ D22 - Lógica genérica
@@ -126,7 +126,6 @@ npm run dev
 - ✅ D1256 - Lógica específica (requiere código)
 - ✅ D4514 - Lógica específica (requiere código)
 - ✅ D5936 - Lógica específica (requiere código)
-- ✅ Genérico - Test de lógica genérica
 
 ---
 
